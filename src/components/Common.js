@@ -80,11 +80,6 @@ const useStyle = makeStyles((theme) => ({
             color: '#fff',
         },
     },
-    notchedOutline: {},
-    cssFocused: {},
-    error: {},
-    disabled: {},
-
 }));
 export const Decorator = ({ label, withIcon, Icon, styles }) => {
     const classes = useStyle();
