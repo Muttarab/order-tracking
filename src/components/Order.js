@@ -100,7 +100,7 @@ export default function Order() {
                                     direction='row'
                                     justifyContent='center'
                                     alignItems='center'>
-                                    <Grid item xs={10} sm={9} style={{ marginTop: "85px", flexGrow: "1" }}>
+                                    <Grid item xs={10} sm={9} style={{ flexGrow: "1" }}>
                                         {RenderInputText({
                                             label: "Please Enter your Order/Tracking Number",
                                             type: 'string',
@@ -110,7 +110,7 @@ export default function Order() {
                                             autoComplete: 'off'
                                         })}
                                     </Grid>
-                                    <Grid item xs={8} sm={2} style={{ marginTop: "84px", marginLeft: '2px' }}>
+                                    <Grid item xs={8} sm={2} style={{ marginLeft: '2px' }}>
                                         <Button
                                             style={{height:'60px'}}
                                             variant='outlined'

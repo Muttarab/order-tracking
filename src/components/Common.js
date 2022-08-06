@@ -111,11 +111,11 @@ export const RenderSectionHeading = ({
     const classes = useStyle();
     return (
         <Box className={classes.sectionHeadingCont}>
-            {Decorator({
+            {/* {Decorator({
                 label: smallText,
                 withIcon: false,
                 styles: alignCenter ? { width: "100px", margin: "10px auto" } : {},
-            })}
+            })} */}
             <Typography
                 variant='h4'
                 align={alignCenter ? "center" : "left"}
